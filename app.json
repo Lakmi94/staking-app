@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "vue-native-app",
-    "slug": "vue-native-app",
+    "name": "staking-app",
+    "slug": "staking-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
-      "image": "./assets/TokamakLogo.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,28 +17,16 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "staking.app"
+      "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      },
-      "package": "staking.app"
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    },
-    "packagerOpts": {
-      "config": "metro.config.js",
-      "sourceExts": [
-        "js",
-        "json",
-        "ts",
-        "tsx",
-        "vue"
-      ]
     }
   }
 }
