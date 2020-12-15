@@ -16,7 +16,7 @@ import {
 } from "vue-native-router";
 import Vue from "vue-native-core";
 import { Root, VueNativeBase } from "native-base";
-import SidebarScreen from "./src/components/Sidebar";
+import SidebarScreen from "@/components/Sidebar";
 import OperatorsScreen from "@/screens/OperatorsScreen";
 import HomeScreen from "@/screens/HomeScreen";
 import StakingScreen from "@/screens/StakingScreen";

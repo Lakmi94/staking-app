@@ -1,7 +1,7 @@
 import { cloneDeep } from 'lodash';
 import Vue from 'vue-native-core';
 import Vuex from 'vuex';
-import RNSamsungBKS from 'react-native-samsung-bks';
+import {RNSamsungBKS} from 'react-native-samsung-bks';
 
 Vue.use(Vuex);
 
@@ -33,12 +33,9 @@ export default new Vuex.Store({
             context.commit('SET_INITIAL_STATE');
           },
           async signIn (context, user) {
+            const sup = await RNSamsungBKS.isSupported();
             context.commit('SIGN_IN', true);
             context.commit('SET_USER', user);
-            const {supported} = RNSamsungBKS.isSupported();
-            console.log(supported);
-            // console.log(supported);
-            
           }
     }, 
     getters:{

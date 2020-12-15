@@ -188,8 +188,9 @@ dependencies {
             dirs 'aar'
         }
     }
-    implementation name: 'BlockchainPlatformSDK_1.1.00', ext: 'aar'
-    implementation name: 'KeystoreSDK_v1.3.0', ext: 'aar'
+    implementation name: 'SamsungBlockchainSDK-developers_release_1.1.00', ext: 'aar'
+    implementation name: 'KeystoreSDK-release_v1.4.1', ext: 'aar'
+    implementation name: 'KeystoreSDK_v1.1.0', ext: 'aar'
     // network
     implementation 'com.squareup.retrofit2:retrofit:2.6.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.6.0'

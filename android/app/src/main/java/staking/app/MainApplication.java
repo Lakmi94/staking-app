@@ -3,6 +3,7 @@ package staking.app;
 import android.app.Application;
 import android.content.Context;
 import android.net.Uri;
+import com.reactlibrary.RNSamsungBKS;
 
 import com.facebook.react.PackageList;
 import com.facebook.react.ReactApplication;
